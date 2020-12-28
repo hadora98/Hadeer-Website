@@ -1,0 +1,137 @@
+
+p{
+  line-height: 2;
+}
+
+
+body{
+
+  font-family: 'Merriweather', serif;
+  margin: 0;
+  text-align: center;
+}
+
+h1{
+  margin:50px auto 0 auto;
+  font-family:'Sacramento',cursive;
+  font-size:5.625rem ;
+  color: #66BFBF;
+  /*Line height:2; (space around h1)*/
+
+}
+h2{
+  font-family: 'Montserrat',sans-serif;
+  font-size: 2.5rem;
+  color: #66BFBF;
+  font-weight: normal;
+
+
+}
+
+h3{
+  font-family: 'Montserrat',sans-serif;
+  color: #11999E;
+
+}
+hr{
+  border: dotted #EAF6F6 6px; /*style color width*/
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;/*auto left & right is useful for centering*/
+}
+
+.prog{
+  text-decoration: underline;
+}
+
+.top-cloud{
+  position: absolute;
+  left:350px;
+  bottom:300px
+}
+
+.bottom-cloud{
+  position: absolute;
+  right: 350px;
+  top:50px;
+}
+
+.top-container {
+  background-color: #E4F9F5;
+
+  padding-top: 100px;
+  position: relative;
+}
+
+.bottom-container{
+  background-color: #66BFBF;
+padding: 30px;
+}
+
+.profile{
+  margin:100px auto;
+
+  width: 30%;
+
+}
+
+.my-pic{
+  width:10rem;
+}
+.skill-row{
+  width: 50%;
+  margin: 100px auto 100px auto; /*top right bottom left*/
+text-align: left;
+/*line-height: 2; space between lines*/
+
+}
+
+.develop{
+  width: 35%;
+  float:left; /*img will be to the left of txt (use only to wrap txt around img) */
+  margin-right: 30px;
+  /*clear:left;(anti-float) will remove the float effect and the txt won't wrap around img*/
+}
+.light{
+  width: 25%;
+  float:right; /*img will be to the left of txt*/
+  margin-left: 30px;
+}
+.contact-me{
+  width: 40%;
+  margin: 100px auto; /*top right bottom left*/
+}
+.msg{
+  margin: 40px auto;
+}
+.footer-link{
+  color: #11999E;
+  text-decoration: none;
+margin: auto 30px;
+font-family: "Montserrat",sans-serif;
+}
+.footer-link:hover{
+
+  color: #EAF6F6;
+}
+.copyright{
+
+  font-size: 0.75rem;
+  color: #EAF6F6
+
+}
+  /* U can use CSS Button Generator for more advanced looking buttons*/
+.btn{
+
+background-color: #11999E;
+text-decoration: none;
+padding: 10px;
+color: #EAF6F6;
+
+border-radius: 10px;
+font-family: 'Montserrat',sans-serif;
+
+}
+.btn:hover{
+  background-color: #11cdd4;
+}
